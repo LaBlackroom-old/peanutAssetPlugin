@@ -1,0 +1,7 @@
+body span.skype_pnh_print_container {
+  display:inline !important;
+}
+
+body span.skype_pnh_container{
+  display:none !important;
+}

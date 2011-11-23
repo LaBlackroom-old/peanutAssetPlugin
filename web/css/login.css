@@ -1,0 +1,104 @@
+html {
+  background-color: #737373;
+  background: -webkit-gradient(linear, left top, left bottom, from(#737373), to(#404040));
+  background: -moz-linear-gradient(top, #737373, #404040);
+  background: -o-linear-gradient(#737373, #404040);
+  backgroung: -ms-linear-gradient(top, #737373, #404040);
+  background: -webkit-linear-gradient(top, #737373, #404040);
+  background: linear-gradient(top, #737373, #404040);
+  filter:     progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=#737373, endColorstr=#404040);
+}
+
+#login #main {
+  width: 330px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 200px;
+  font-weight: bold;
+  text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+#login a {
+  color: #fefefe;
+}
+
+#login a:hover {
+  color: #ddd;
+  -webkit-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease;
+}
+
+#login h1 {
+  text-transform: uppercase;
+  color: #000;
+
+  text-shadow: 0px 1px 0px #d4d4d4;
+}
+
+#login form {
+  text-align: left;
+}
+
+#login form input[type=text],
+#login form input[type=password] {
+  color: #fff;
+  font-size: 20px;
+  width: 310px;
+  height: 30px;
+  padding: 5px;
+  border: 5px solid #7e7e7e;
+
+  background: url('/peanutAssetPlugin/images/login/button-overlay-reverse.png') #000 repeat-x;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#444));
+  background: -moz-linear-gradient(top,  #000,  #444);
+
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0, 0.8);
+  -moz-box-shadow: 0px 1px 2px rgba(0,0,0, 0.8);
+  box-shadow:  0px 1px 2px rgba(0,0,0, 0.8);
+}
+
+#login form input:required {
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0, 0.8);
+  -moz-box-shadow: 0px 1px 2px rgba(0,0,0, 0.8);
+  box-shadow:  0px 1px 2px rgba(0,0,0, 0.8);
+}
+
+#login form input::-webkit-input-placeholder,
+#login form input::-moz-placeholder,
+#login form input::placeholder {
+  color: #fff;
+  text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+#login form label {
+  font-size: 16px;
+}
+
+
+#login form input[type=checkbox] {
+  height: 16px;
+}
+
+#login form input[type=submit] {
+  background: url('/peanutAssetPlugin/images/login/button-overlay.png') #000 repeat-x;
+  background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+  background: -moz-linear-gradient(top, #444,  #000);
+
+  display: inline-block;
+  padding: 5px 20px;
+  color: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+  border: 1px solid #000;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+  font-weight: bolder;
+  font-size: 16px;
+  float: right;
+}
+

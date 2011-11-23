@@ -1,0 +1,13 @@
+/* EXEMPLE
+@font-face {
+    font-family: 'eurofurenceregular';
+    src: url('/peanutAssetPlugin/font/eurof55-webfont.eot');
+    src: url('/peanutAssetPlugin/font/eurof55-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/peanutAssetPlugin/font/eurof55-webfont.woff') format('woff'),
+         url('/peanutAssetPlugin/font/eurof55-webfont.ttf') format('truetype'),
+         url('/peanutAssetPlugin/font/eurof55-webfont.svg#eurofurenceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
