@@ -13,11 +13,13 @@
 html {
   height: 100%;
   overflow: hidden;
+  font-size: 0.8em; 
 }
 
 body {
   color: #fefefe;
   font-weight: normal;
+  padding: 0;
 }
 
 .notification {
@@ -153,6 +155,7 @@ body {
 
 #authenticated section#sidebar nav ul li {
   margin: 5px 0;
+  list-style-type: none;
 }
 
 #authenticated section#sidebar nav a {
