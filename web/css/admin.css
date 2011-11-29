@@ -523,6 +523,10 @@ body {
 
 #authenticated .content_box_header h2 {
   background-color: transparent;
+  padding: 3px;
+  color: #333;
+  font-size: 11px;
+  margin: 0;
 }
 
 #authenticated div.sf_admin_form #sf_fieldset_informations {
